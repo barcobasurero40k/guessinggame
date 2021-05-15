@@ -1,6 +1,8 @@
+all: readme.md
+
 readme.md:
 	echo "# Guessinggame" > readme.md
-	echo "The time makefile run is:" >> readme.md
+	echo "The date time makefile run was:" >> readme.md
 	date >> readme.md
 	echo >> readme.md
 	echo "The number of lines of the guessinggame is:" >> readme.md
